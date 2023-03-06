@@ -66,4 +66,6 @@ module.exports = {
     @tailwind utilities;
 
     - run your website (npm run dev)
----------------------------------------------------------------
+---------------------------------------------------------
+5. installed react ICONS 
+   -> npm install react-icons --save
