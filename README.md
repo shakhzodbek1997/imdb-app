@@ -36,3 +36,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+------------------My Changes------------
+1.  to strat npm run dev
+2.  cleaned the project from unnecessary files
+3. uploaded to the GitHub
+4. installed tailwindCSS 
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init -p
+    (after this, two files will be added to the project [tailwind.config.js and postcss.config.js])
+    - after that you should configure your template paths! you should add this to taillwind.config.js file (first delete all code inside this file and paste code in the below)
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    /** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    // Or if using `src` directory:
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    - Add Tailwind directives to your CSS (globals.css)
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    - run your website (npm run dev)
+---------------------------------------------------------------
