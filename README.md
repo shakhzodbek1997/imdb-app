@@ -69,3 +69,9 @@ module.exports = {
 ---------------------------------------------------------
 5. installed react ICONS 
    -> npm install react-icons --save
+6. To change theme we need --> Next-themes
+  ->  npm install next-themes
+
+  then, we will ad Providers(created in app folder) to the Layout.js file
+7. add this code to tailwind.cofig.js file 
+   darkMode: "class",

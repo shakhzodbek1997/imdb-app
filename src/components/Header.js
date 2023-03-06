@@ -1,6 +1,7 @@
 import MenuItem from './MenuItem';
 import { AiFillHome, AiFillInfoCircle } from "react-icons/ai";
 import Link from 'next/link';
+import DarkModeSwitch from './DarkModeSwitch';
 
 export default function Header() {
   return (
@@ -20,7 +21,9 @@ export default function Header() {
         />
       </div>
       {/* this div for logo on the --> right side */}
-      <div className=''>
+      <div className='flex items-center space-x-5  '>
+        <DarkModeSwitch/>
+
         <Link href="/">
           <h2 className="text-2xl">
             {/* I am using two span because they have diffrent style */}
