@@ -75,3 +75,10 @@ module.exports = {
   then, we will ad Providers(created in app folder) to the Layout.js file
 7. add this code to tailwind.cofig.js file 
    darkMode: "class",
+8. Navbar created
+9. Fetched data from TMDB API in the home page
+10. created .env.local file 
+    - stored API_KEY = debab4e454a7c17cb1a2a1d46b7c317b
+  after that re-run you code
+(!!! NEVER UPLOAD THIS FILE TO THE GITHUB  it must be secure!!!)
+11. 
