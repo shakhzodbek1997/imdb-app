@@ -81,4 +81,5 @@ module.exports = {
     - stored API_KEY = debab4e454a7c17cb1a2a1d46b7c317b
   after that re-run you code
 (!!! NEVER UPLOAD THIS FILE TO THE GITHUB  it must be secure!!!)
-11. 
+11. Error handled. 
+12. loading Effect
