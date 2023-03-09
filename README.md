@@ -83,3 +83,12 @@ module.exports = {
 (!!! NEVER UPLOAD THIS FILE TO THE GITHUB  it must be secure!!!)
 11. Error handled. 
 12. loading Effect
+13. added image cofig to the next.config.js 
+    images: {
+    domains: ["image.tmdb.org"],
+  }
+14. to show only 2 lines of text i used
+    - instaled:-> npm install -D @tailwindcss/line-clamp
+    - added this plugin to tailwind.config.js : require('@tailwindcss/line-clamp'),
+    or you may use this: ->  - truncate class
+    
